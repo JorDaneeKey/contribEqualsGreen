@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "------------------------------"
-echo "Modifying contribPlusPlus"
+echo "Modifying contribEqualsGreen"
 echo "------------------------------"
 
 # sh contrib.sh -d /User/USERNAME/Sites/PROJECT -u GITHUB_USERNAME -p GITHUB_PASSWORD
@@ -43,8 +43,8 @@ echo " " >> README.md
 
 git add README.md
 git commit -m 'added extra spacing'
-git remote set-url origin git@github.com:devbymike/contribPlusGreen.git
-git push -u origin master --repo "git@github.com:devbymike/contribPlusPlus.git"
+git remote set-url origin https://github.com/devbymike/contribEqualsGreen.git
+git push -u origin master --repo "https://github.com/devbymike/contribEqualsGreen.git"
 
 # Remove added char\#
 sed 's/[ \t]*$//' README.md > README.md
