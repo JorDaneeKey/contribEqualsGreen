@@ -43,8 +43,8 @@ echo " " >> README.md
 
 git add README.md
 git commit -m 'added extra spacing'
-git remote set-url origin https://github.com/devbymike/contribEqualsGreen.git
-git push -u origin master --repo "https://github.com/devbymike/contribEqualsGreen.git"
+git remote set-url origin https://github.com/JorDaneeKey/contribEqualsGreen.git
+git push -u origin master --repo "https://github.com/JorDaneeKey/contribEqualsGreen.git"
 
 # Remove added char\#
 sed 's/[ \t]*$//' README.md > README.md
